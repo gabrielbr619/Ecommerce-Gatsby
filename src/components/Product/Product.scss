@@ -1,0 +1,36 @@
+.products-container-master{
+  display: flex;
+  flex-wrap: wrap;
+
+  >div{
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+
+    height: 28rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgb(255, 255, 255);
+
+    img{
+      border-radius: 20px;
+    }
+
+    .product-name,.product-price{
+      margin: 0;
+      text-align: center;
+
+    }
+    .product-name{
+      color: rgb(71, 71, 71);
+
+    }
+    .product-price{
+      color: rgb(15, 15, 15);
+      font-weight: bold;
+    }
+  }
+}

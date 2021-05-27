@@ -1,0 +1,23 @@
+.produto{
+  margin: 2rem;
+  display: flex;
+
+  background: white;
+
+  border-radius: 20px;
+
+ height: 20rem;
+ max-height: fit-content;
+  width: 50rem;
+ >div{
+   height: 2rem;
+ }
+
+ img{
+   margin: 1rem;
+ }
+
+  .info-container{
+    margin: 2rem 2rem;
+  }
+}
